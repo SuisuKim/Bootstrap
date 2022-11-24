@@ -1,0 +1,61 @@
+
+
+/*# sourceMappingURL=sassy.css.map */
+* {
+  font-family: 'Mulish', sans-serif;  
+}
+
+/* Backgrounds for main content */
+main {
+  background-color: #F7F8FC;
+}
+
+/* Cards hover */
+.card:hover {
+  border-color: #0d6efd;
+  color:  #0d6efd;
+  cursor: pointer;
+}
+
+.card:hover a h5 {
+  color: #0d6efd !important;
+}
+
+/* Profile pic border */
+.profile-pic {
+  border: lightgrey 2px solid;
+}
+
+/* Graph image */
+.graph img {
+  display: block;
+  width: 100%;
+}
+
+/* Tickets and Tasks margin */
+.tickets p,
+.tasks p,
+.tasks form {
+  margin:0;
+} 
+
+/*Vertical line for header */
+.vr {
+  height: 1.5rem;
+}
+
+/* Sidebar logo */
+.logo {
+  width: 20%;
+}
+
+/* Sidebar hover */
+.nav-item p:hover {
+  color: #F7F8FC;
+}
+
+.search,
+.notification {
+  width: 1rem;
+}
+
